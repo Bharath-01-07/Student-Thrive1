@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+dist/
+.tools/node/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+!**/.env.example
+
+# Database
+backend/student_thrive.db
+
+# TypeScript
+*.tsbuildinfo
+
+# macOS
+.DS_Store

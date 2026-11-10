@@ -1,0 +1,9 @@
+{
+  "name": "student-thrive",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {"dev": "vite", "build": "tsc -b && vite build", "build:share": "SHARE_BUILD=1 npm run build && node scripts/make-share-file.mjs", "test:api": "python -m unittest backend.test_app -v", "preview": "vite preview"},
+  "dependencies": {"lucide-react": "latest", "react": "latest", "react-dom": "latest", "recharts": "latest"},
+  "devDependencies": {"@types/react": "latest", "@types/react-dom": "latest", "@vitejs/plugin-react": "latest", "typescript": "latest", "vite": "latest"}
+}
